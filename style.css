@@ -1,0 +1,137 @@
+.main{
+    text-align:center;
+    justify-content: center;
+    display:inline;
+}
+.card{
+  display: inline;
+  text-align:center;
+  width:25% !important; 
+  height:25% !important; 
+  flex-direction: column;
+  justify-content: space-between;
+}
+.button-search{
+    cursor: pointer;
+}
+.button-buy{
+  height: 100px;
+  width: 200px;
+  font-size: xx-large;
+  cursor: pointer;
+  background-color: orange;
+
+}
+.card-describe{
+    display:flex;
+    align-items: center;
+}
+.reviews{
+    align-items:center;
+    display:inline;
+    font-size: 30px;
+    border:black 1px solid;
+    padding:10px;
+    margin:4px
+}
+.describe_of_shop{
+    align-items:center;
+    display:inline;
+    font-size: 30px;
+    border:black 1px solid;
+    padding:10px;
+    margin:5px;
+}
+.iphone{
+  border: 2px solid black; 
+  border-radius: 20px; 
+  margin-right: 1450px;
+}
+.pc{
+  border: 2px solid black; 
+  border-radius: 20px; 
+  margin-right: 1450px;
+
+}
+.holodos{
+  border: 2px solid black; 
+  border-radius: 20px; 
+  margin-right: 1300px;
+
+}
+.sigma{
+  border: 2px solid black; 
+  border-radius: 20px; 
+  margin-right: 1450px;
+
+}
+
+
+
+
+
+
+
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+  }
+  
+  .custom-dropdown select {
+    cursor:pointer;
+    background-color: #2980b9;
+    color: #fff;
+    font-size: inherit;
+    padding: .5em;
+    padding-right: 2.5em;	
+    border: 0;
+    margin: 0;
+    border-radius: 3px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -webkit-appearance: button;
+  }
+  
+  .custom-dropdown::before,
+  .custom-dropdown::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .custom-dropdown::after {
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%;
+    margin-top: -.5em;
+  }
+  
+  .custom-dropdown::before {
+    width: 2em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .custom-dropdown select[disabled] {
+    color: rgba(0,0,0,.3);
+  }
+  
+  .custom-dropdown select[disabled]::after {
+    color: rgba(0,0,0,.1);
+  }
+  
+  .custom-dropdown::before {
+    background-color: rgba(0,0,0,.15);
+  }
+  
+  .custom-dropdown::after {
+    color: rgba(0,0,0,.4);
+  }
